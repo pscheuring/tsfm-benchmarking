@@ -1,0 +1,10 @@
+models:
+
+  - name: last_value_baseline
+    class: LastValueBaseline
+
+  - name: ttm_sktime_r2
+    class: "TtmSktime"
+    params:
+      model_path: "ibm-granite/granite-timeseries-ttm-r2"
+      batch_size: 64

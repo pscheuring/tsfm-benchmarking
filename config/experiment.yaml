@@ -1,0 +1,39 @@
+experiment:
+
+    datasets:
+      - example_1-3
+
+    context_and_horizon:
+      - [512, 96]
+      #- [1024, 96]
+
+    random_seed:
+      - 1
+      - 2
+      - 3
+
+    data_preprocessing:
+      normalization:
+        # - "None"
+        # - "min-max"
+        - "z-score"
+      missing_value_handling:
+        - "dropna"
+        # - "forward-fill"
+        # - "back-fill"
+        # - "mean"
+        # - "None"
+
+    models:
+      - ttm_sktime_r2
+      - last_value_baseline
+
+    fit_strategy:
+      - fit_strategy_name: "zero-shot"
+      # TODO: Implement few-shot and full-shot methods for all models
+      # - fit_strategy_name: "few-shot"
+      #   few_shot_rate:
+      #     - 0.1
+      #     - 0.2
+      #     - 0.3
+      # - fit_strategy_name: "full-shot"

@@ -1,0 +1,17 @@
+{
+  "data_path": "univariate_raw",
+  "dataset_class": "UnivariateDataset",
+  "dataset_file": "example_1.csv",
+  "context_length": 512,
+  "forecast_horizon": 96,
+  "random_seed": 2,
+  "model_name": "ttm_sktime_r2",
+  "model_class": "TtmSktime",
+  "model_params": {
+    "model_path": "ibm-granite/granite-timeseries-ttm-r2",
+    "batch_size": 64
+  },
+  "fit_strategy": "zero-shot",
+  "normalization": "z-score",
+  "missing_value_handling": "dropna"
+}

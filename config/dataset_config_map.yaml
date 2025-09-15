@@ -1,0 +1,14 @@
+datasets:
+
+  - name: example_all
+    class: UnivariateDataset
+    data_path: univariate_raw
+    file_pattern: "*.csv"
+
+  - name: example_1-3
+    class: UnivariateDataset
+    data_path: univariate_raw
+    files:
+      - example_1.csv
+      - example_2.csv
+      - example_3.csv

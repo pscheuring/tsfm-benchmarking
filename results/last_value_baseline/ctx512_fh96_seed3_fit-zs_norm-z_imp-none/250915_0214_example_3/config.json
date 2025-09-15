@@ -1,0 +1,14 @@
+{
+  "data_path": "univariate_raw",
+  "dataset_class": "UnivariateDataset",
+  "dataset_file": "example_3.csv",
+  "context_length": 512,
+  "forecast_horizon": 96,
+  "random_seed": 3,
+  "model_name": "last_value_baseline",
+  "model_class": "LastValueBaseline",
+  "model_params": {},
+  "fit_strategy": "zero-shot",
+  "normalization": "z-score",
+  "missing_value_handling": "dropna"
+}

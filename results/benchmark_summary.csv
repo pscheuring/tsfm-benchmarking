@@ -1,0 +1,19 @@
+dataset_file,model_name,fit_strategy,few_shot_rate,context_length,forecast_horizon,normalization,missing_value_handling,random_seed,timestamp,result_folder
+example_1.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,1,2025-09-15 02:14:45,ttm_sktime_r2/ctx512_fh96_seed1_fit-zs_norm-z_imp-none/250915_0214_example_1
+example_1.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,1,2025-09-15 02:14:45,last_value_baseline/ctx512_fh96_seed1_fit-zs_norm-z_imp-none/250915_0214_example_1
+example_1.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,2,2025-09-15 02:14:45,ttm_sktime_r2/ctx512_fh96_seed2_fit-zs_norm-z_imp-none/250915_0214_example_1
+example_1.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,2,2025-09-15 02:14:45,last_value_baseline/ctx512_fh96_seed2_fit-zs_norm-z_imp-none/250915_0214_example_1
+example_1.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,3,2025-09-15 02:14:45,ttm_sktime_r2/ctx512_fh96_seed3_fit-zs_norm-z_imp-none/250915_0214_example_1
+example_1.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,3,2025-09-15 02:14:45,last_value_baseline/ctx512_fh96_seed3_fit-zs_norm-z_imp-none/250915_0214_example_1
+example_2.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,1,2025-09-15 02:14:46,ttm_sktime_r2/ctx512_fh96_seed1_fit-zs_norm-z_imp-none/250915_0214_example_2
+example_2.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,1,2025-09-15 02:14:46,last_value_baseline/ctx512_fh96_seed1_fit-zs_norm-z_imp-none/250915_0214_example_2
+example_2.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,2,2025-09-15 02:14:46,ttm_sktime_r2/ctx512_fh96_seed2_fit-zs_norm-z_imp-none/250915_0214_example_2
+example_2.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,2,2025-09-15 02:14:46,last_value_baseline/ctx512_fh96_seed2_fit-zs_norm-z_imp-none/250915_0214_example_2
+example_2.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,3,2025-09-15 02:14:46,ttm_sktime_r2/ctx512_fh96_seed3_fit-zs_norm-z_imp-none/250915_0214_example_2
+example_2.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,3,2025-09-15 02:14:46,last_value_baseline/ctx512_fh96_seed3_fit-zs_norm-z_imp-none/250915_0214_example_2
+example_3.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,1,2025-09-15 02:14:47,ttm_sktime_r2/ctx512_fh96_seed1_fit-zs_norm-z_imp-none/250915_0214_example_3
+example_3.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,1,2025-09-15 02:14:47,last_value_baseline/ctx512_fh96_seed1_fit-zs_norm-z_imp-none/250915_0214_example_3
+example_3.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,2,2025-09-15 02:14:47,ttm_sktime_r2/ctx512_fh96_seed2_fit-zs_norm-z_imp-none/250915_0214_example_3
+example_3.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,2,2025-09-15 02:14:47,last_value_baseline/ctx512_fh96_seed2_fit-zs_norm-z_imp-none/250915_0214_example_3
+example_3.csv,ttm_sktime_r2,zero-shot,,512,96,z-score,dropna,3,2025-09-15 02:14:47,ttm_sktime_r2/ctx512_fh96_seed3_fit-zs_norm-z_imp-none/250915_0214_example_3
+example_3.csv,last_value_baseline,zero-shot,,512,96,z-score,dropna,3,2025-09-15 02:14:47,last_value_baseline/ctx512_fh96_seed3_fit-zs_norm-z_imp-none/250915_0214_example_3
